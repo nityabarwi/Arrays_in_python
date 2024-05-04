@@ -8,4 +8,4 @@ def isPalindrome(x):
     reverse = reverse * 10 + digit
     x //= 10
   return original == reverse
-isPalindrome(1234321)
+isPalindrome(1234321)      #Output = True
