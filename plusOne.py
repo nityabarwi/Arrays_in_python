@@ -6,7 +6,6 @@ def plusOne(digits):
             return digits
         else:
             digits[i] = 0
-    # If all digits are 9, add a new leading digit of 1
     return [1] + digits
 
 digits1 = [1, 2, 3]
