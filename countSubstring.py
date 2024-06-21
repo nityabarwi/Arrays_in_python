@@ -1,8 +1,9 @@
 #Count Substrings Starting and Ending with Given Character
-
 def count_substrings(s, c):
     count = 0
-    c_count = s.count(c)  # Count the occurrences of the character c in the string
+
+    # Count the occurrences of the character c in the string
+    c_count = s.count(c)  
     
     count = c_count * (c_count + 1) // 2
     
