@@ -9,7 +9,6 @@ def plusOne(digits):
     # If all digits are 9, add a new leading digit of 1
     return [1] + digits
 
-# Example usage:
 digits1 = [1, 2, 3]
 digits2 = [4, 3, 2, 1]
 digits3 = [9]
